@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Key
-#API_KEY = "9b4ec332e433dcc34ddb0529124981d8"
 API_KEY = os.getenv("WEATHER_API_KEY")
 
 if not API_KEY:
